@@ -2,10 +2,10 @@ footer{
     text-align: center;
     border-top: 1px solid #E8E2DD;
     padding: 20px;
-    width: 75%
+    width: 75%;
     margin: auto;
-
 }
+
 footer section span:first-child{
     color: #DD9343;
 }
