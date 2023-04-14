@@ -1,5 +1,11 @@
-.logoOba{
-    display: flex;
-    justify-content: center;
-    align-items: center;
+footer{
+    text-align: center;
+    border-top: 1px solid #E8E2DD;
+    padding: 20px;
+    width: 75%
+    margin: auto;
+
+}
+footer section span:first-child{
+    color: #DD9343;
 }

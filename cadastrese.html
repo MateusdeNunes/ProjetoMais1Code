@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<html>
+    <head>
+        <meta charset="utf-8"/>
+        <meta name="description" content="">
+	    <meta name="keywords" content="">
+	    <meta name="author" content="Mateus Nunes" />
+	    <meta http-equiv="refresh" content= "50">
+        <meta name="viewpont" content="width=device-width, initial-scale=1.0" />
+        <title>Cadastre-se</title>
+        <link rel="stylesheet" href="public/css/body.css" />
+        <link rel="stylesheet" href="public/css/index.css" />
+        <link rel="stylesheet" href="public/css/header.css"/>
+        <link rel="stylesheet" href="public/css/footer.css"/>
+        <link rel="stylesheet" href="public/css/cadastrese.css"/>
+       
+    </head>
+    <body>
+        <header>
+            <nav class="menu">
+                <ul>
+                    
+                    <li><a href="index.html">Quem somos</a></li>
+                    <li><a href="noticias.html">Noticias</a></li>
+                    <li><a href="locaisDeColeta.html">Locais de Coleta</a></li>
+                    <li><a href="cadastrese.html">Cadastre-se</a></li>
+                </ul>
+            </nav>
+            
+        </header>
+
+        <main>
+            <h2 class="title">Cadastre seu local de coleta!</h2>
+            <section>
+                <form action="index.html">
+                    <p>
+                        <label>Nome do Local:</label><input type="text" name="nomeDoLocal" maxlength="70"/>
+                    </p>
+                    <p>
+                        <label>Nome do Responsavel:</label><input type="text" name="nomeDoResponsavel"></input>
+                    </p>
+                    <p>
+                        <label>E-mail:</label><input type="text" name="email"></input>
+                    </p>
+                    <p>
+                        <label>Telefone:</label><input type="text" name="telefone"></input>
+                    </p>
+                    <p>
+                        <label>Compra Material reciclado:</label>
+                        <input type="radio" name="opcao"/><lable>SIM</lable>
+                        <input type="radio" name="opcao"/><lable>NÃO</lable>
+                    </p>
+                    <label>Materias aceitos</label>
+                    <select id="materiais" name="materiais[]" multiple>
+                        <option value="plastico">Plastico</option>
+                        <option value="papel">Papel</option>
+                        <option value="vidro">Vidro</option>
+                        <option value="organico">Orgânico</option>
+                        <option value="metal">Metal</option>
+                        <option value="eletronico">Eletrônico</option>
+                    </select>
+                    <p>
+                        <label>Comentário:</label>
+                        <textarea name=“Comentario" rows="4" cols="50"></textarea> 
+                    </p>
+                </form>  
+            </section>
+
+        </main>
+        
+        <footer>
+            <section>
+                <span>contato@odi.com.br</span> <br/>
+                <span>Salve o nosso planeta!</span>
+            </section>
+        </footer>
+        <script>
+        </script>
+    </body>
+    
+</html>
