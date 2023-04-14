@@ -40,3 +40,12 @@ header nav ul{
     white-space: nowrap;
 
 }
+
+@media screen and (min-with:992px){
+    header{
+        position: relative;
+    }
+    .menu{
+        position:absolute;
+    }
+}
