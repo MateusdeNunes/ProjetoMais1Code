@@ -1,0 +1,42 @@
+*{
+    margin:0;
+    padding: 0;
+    list-style-type:none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+.figurePlanetario{
+    margin-left: 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-size-adjust: 400px;
+    font-family: Blippo, fantasy;
+    
+}
+
+.figurePlanetario img{
+    margin-right: 0px;
+    display:flex;
+    padding:0px;
+    width: 50%;
+    border-radius: 10%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /*colocar sombra */
+    
+}
+
+.figurePlanetario img p {
+    display: flex;
+    text-align: right;
+    margin: 0px;
+    
+   
+    /*white-space: nowrap*/;
+
+}
+
+.texto2 {
+    margin-top: 60px;
+
+}
