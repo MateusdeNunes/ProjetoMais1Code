@@ -1,11 +1,14 @@
 footer{
+    background-image: linear-gradient(to right,  #a2e2be, #38ec868a, #3ddc84, #232e28);
+    font-weight: bolder;
+    color: rgb(10, 7, 7);
+    text-decoration: none;
+    padding: 5px;
+    font-size: 0.8em;
     text-align: center;
-    border-top: 1px solid #E8E2DD;
-    padding: 20px;
-    width: 75%;
-    margin: auto;
+    margin-top:30px;
 }
 
 footer section span:first-child{
-    color: #DD9343;
+    color: #dbd7d1;
 }
