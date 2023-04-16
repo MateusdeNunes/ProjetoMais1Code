@@ -15,9 +15,13 @@
     margin-bottom: 60px;
     background-image: url(//https://images.ecycle.com.br/wp-content/uploads/2021/04/29153742/simbolo-reciclagem22.jpg);
 }
+
+  @import url('https://fonts.googleapis.com/css2?family=Bangers&display=swap');
+
 h2{
     text-align: center;
     margin-bottom: 60px;
+    font-family: 'Bangers', cursive;
 }
 
 .textoUm{
