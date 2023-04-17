@@ -1,8 +1,11 @@
 /* edição da pagina como um todo*/
 
 body {
-    background-color: #815135;
-    color: #E8E2DD;
-    margin: 0;
+    background-image: url(https://blog.nexenergy.com.br/wp-content/uploads/2020/10/como-reciclar-em-casa.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 190vh;
+    color: rgb(243, 236, 236);
 }
 

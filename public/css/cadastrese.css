@@ -1,0 +1,72 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Bangers&display=swap');
+
+form {
+    max-width: 500px;
+    margin: 0 auto;
+    font-family: Arial, sans-serif;
+  }
+
+  body {
+    background-image: url(https://image.lexica.art/full_jpg/339e4a15-00cf-43cd-a3e7-d4ba2a1d065c);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 98vh;
+  }
+
+  section {
+    color: #f1e9e991;
+    text-shadow: 1px 3px 5px rgb(36, 37, 39);
+    font-family: 'Bangers', cursive;
+  }
+
+  h2.title {
+    font-family: 'Bangers', cursive;
+    text-align: center;
+    font-size: 2rem;
+    margin-top: 2rem;
+    color: #008000;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 0.5rem;
+    font-weight: bold;
+  }
+  
+  input[type="text"], textarea {
+    width: 100%;
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+    border-radius: 5px;
+    border: 1px solid rgb(39, 30, 30);
+  }
+  
+  input[type="radio"] {
+    margin-right: 0.5rem;
+  }
+  
+  select {
+    width: 100%;
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+    border-radius: 5px;
+    border: 1px solid rgb(185, 175, 175);
+  }
+  
+  button {
+    display: block;
+    margin-top: 1rem;
+    padding: 0.5rem 1rem;
+    background-color: #008000;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+  }
+  
+  button:hover {
+    background-color: #006400;
+    cursor: pointer;
+  }
